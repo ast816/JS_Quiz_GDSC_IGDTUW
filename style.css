@@ -18,7 +18,7 @@ html {
 
 .abc{
     font-size:38px;
-    margin-bottom: 120px;
+    margin-bottom: 200px;
     width: 800px;
     
     
@@ -54,7 +54,7 @@ html{
 .inner-div{
     display: flex;
     flex-direction: column;
-margin-top: 100px;   
+margin-top: 1000px;   
 margin-right: 55px; 
 margin-left: 5px;
 width: 100%;
@@ -730,50 +730,26 @@ input{
  
   @media (min-width: 768px){
 
-    .abc{
-        font-size:38px;
-        margin-bottom: 60px;
-        width: 800px;
-    
-    }
-    
-    
+   
+
+    .main-div{
+        height: 100%;
         
-    
-
-    .inner-div{
-        margin-right: 55px;
-       
-        margin-bottom: 50px;
-    }
-    
-    
-
-
-  }
-
-  /* @media(min-width:1020px){
-
-  .abc{
-      margin-bottom: -90px;
-
-
-  }
-
-  .main-div{
-      width: 100%;
-      height: 100%;
       
-  }
-      .inner-div{
-          height: 40%;
-          width: 91%;
-          display: flex;
-      flex-direction: column;
-      margin-bottom: 70%;
+    } 
+    
+    
         
+    
 
-      }
+     .inner-div{
+    
+        margin-top: auto;
+      
+        
+    } 
+    
+    
+
 
   }
-  */
